@@ -1,0 +1,19 @@
+# ========== 基础必装（本地一键运行，无额外中间件） ==========
+numpy>=1.26
+pandas>=2.2
+numba>=0.60.0
+umap-learn>=0.5.6
+ripser>=0.6.4
+gudhi>=3.9.0
+scikit-optimize>=0.9
+fastapi>=0.109
+uvicorn[standard]>=0.24
+mcp>=1.0.0
+pydantic>=2.6
+plotly>=5.22
+
+# ========== 企业可选（注释，按需安装） ==========
+# redis>=5.0        # 生产缓存
+# faiss-cpu>=1.7.6  # 大数据加速
+# cuml>=24.06       # GPU UMAP
+# prometheus-client # 监控指标
